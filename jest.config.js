@@ -1,13 +1,23 @@
+// @ts-check
 export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
-  extensionsToTreatAsEsm: ['.ts'],
-  moduleNameMapper: {
-    '^(\\.{1,2}/.*)\\.js$': '$1',
-  },
+  verbose: true,
+  collectCoverage: true,
+  coveragePathIgnorePatterns: [
+    "/node_modules/",
+    "/test/"
+  ],
+  testMatch: [
+    "**/test/**/*.test.ts"
+  ],
   transform: {
     '^.+\\.tsx?$': ['ts-jest', {
       useESM: true,
     }],
+  },
+  extensionsToTreatAsEsm: ['.ts'],
+  moduleNameMapper: {
+    '^(\\.{1,2}/.*)\\.js$': '$1',
   },
 };
