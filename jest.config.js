@@ -12,7 +12,7 @@ export default {
     "**/test/**/*.test.ts"
   ],
   transform: {
-    '^.+\\.tsx?$': ['ts-jest', {
+    '^.+\\.(ts|tsx)$': ['ts-jest', {
       useESM: true,
     }],
   },

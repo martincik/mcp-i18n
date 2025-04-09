@@ -1,9 +1,0 @@
-{
-  "pages.agents.new.steps.automations.automation_created": "Automation created successfully",
-  "pages.agents.new.steps.automations.automation_updated": "Automation updated successfully",
-  "pages.agents.new.steps.automations.client_automationType_required": "Please select a client and automation type to continue",
-  "pages.agents.new.steps.automations.automationType.validation.required": "Please select an automation type to continue",
-  "pages.agents.new.steps.automations.templateId.validation.required": "Please select a template",
-  "pages.agents.new.steps.automations.edit_automation": "",
-  "pages.agents.new.steps.automations.new_automation": ""
-}
